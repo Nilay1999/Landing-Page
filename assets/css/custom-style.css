@@ -291,6 +291,7 @@ section {
 .products-section .text {
     width: 66%;
     text-align: center;
+    color: #949494;
 }
 
 .products-slider {
@@ -323,19 +324,20 @@ section {
     position: relative;
 }
 
-.products-slider .product h3 {
+.products-slider .product h5 {
     font-weight: 700;
-    font-size: 18px;
     text-transform: uppercase;
 }
 
-.products-slider .product h5 {
+.products-slider .product h6 {
     color: #9B69A8;
+    size: 16px
 }
 
 .products-slider .product p {
     height: 3.5em;
     font-size: 14px;
+    color: #949494
 }
 
 .owl-description h {
@@ -429,7 +431,7 @@ section {
 
 .card-text {
     color: #949494;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .card:hover {
@@ -530,6 +532,7 @@ section {
 .client-section .text {
     width: 66%;
     text-align: center;
+    color: #949494;
 }
 
 .client-slider {
