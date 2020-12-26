@@ -15,20 +15,17 @@ section {
 
 /* Navbar starts*/
 
-.main-navbar {
-    font-size: 14px;
-    border-radius: 0px;
-    margin-bottom: 0%;
-    font-family: "Open Sans", sans-serif;
-    width: 100%;
-}
-
 .navbar {
     padding: 0 10px;
 }
 
 .nav-item>a {
     padding: 18px 12px;
+}
+
+#navbarCollapse>ul>li.nav-item.active>a {
+    color: white;
+    background: #9B69A8;
 }
 
 .brand-font {
@@ -116,7 +113,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-top: 60px;
+    margin-top: 57px;
 }
 
 .business-heading {
@@ -325,6 +322,7 @@ section {
 .product-desciption {
     padding: 10px 15px;
     position: relative;
+    overflow: hidden;
 }
 
 .products-slider .product h5 {
@@ -338,7 +336,7 @@ section {
 }
 
 .products-slider .product p {
-    height: 3.5em;
+    height: auto;
     font-size: 14px;
     color: #949494
 }
@@ -499,7 +497,7 @@ section {
 /* Client Section Start*/
 
 .client-section {
-    min-height: 650px;
+    min-height: 600px;
     height: 100%;
     width: 100%;
     background-color: #F5F5F5;
@@ -539,7 +537,7 @@ section {
 }
 
 .client-slider {
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .owl-client-decs {
@@ -778,6 +776,15 @@ section {
         padding-right: 20px;
         padding-left: 20px;
     }
+    .footer p {
+        margin-bottom: 0px !important;
+    }
+    .about-header {
+        text-align: center;
+    }
+    .about-des {
+        margin-top: 5%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 991px) {
@@ -802,11 +809,14 @@ section {
 
 @media (min-width: 768px) and (max-width:991px) {
     .client-section {
-        min-height: 690px;
+        min-height: 620px;
     }
     .img2 {
         top: 28%;
         left: -9%;
+    }
+    .vertical {
+        margin: 12px 0;
     }
 }
 
