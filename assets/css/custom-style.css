@@ -619,7 +619,7 @@ section {
 }
 
 .contact-section .col-md-12 {
-    padding-bottom: 7%;
+    padding-bottom: 2%;
 }
 
 .icon-space {
@@ -839,6 +839,9 @@ section {
         background-color: #f8f9fa;
         transition: 0.4s;
     }
+    .contact-section .col-md-12 {
+        padding-bottom: 30px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -863,6 +866,6 @@ section {
 
 @media (min-width: 1200px) {
     .client-section {
-        min-height: 690px;
+        min-height: 610px;
     }
 }
