@@ -9,7 +9,7 @@ body {
 }
 
 section {
-    scroll-margin-top: 57px;
+    scroll-margin-top: 56px;
 }
 
 
@@ -17,15 +17,16 @@ section {
 
 .navbar {
     padding: 0 10px;
+    background-color: white !important;
 }
 
 .nav-item>a {
     padding: 18px 12px;
 }
 
-#navbarCollapse>ul>li.nav-item.active>a {
-    color: white;
-    background: #9B69A8;
+.navbar-nav>.active>a {
+    background-color: #9B69A8;
+    color: white !important;
 }
 
 .brand-font {
@@ -58,16 +59,6 @@ section {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     height: 100%;
-}
-
-#navbarCollapse>ul>li>a {
-    color: #20122C;
-}
-
-#navbarCollapse>ul>li>a:hover {
-    color: white;
-    background-color: #9B69A8;
-    transition: 0.4s;
 }
 
 .sticky {
@@ -766,6 +757,30 @@ section {
         top: 38%;
         left: -7%;
     }
+
+    .footer p {
+        font-size: 12px;
+        letter-spacing: 2.1px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+
+    .foot-img{
+        width : 100px;
+    }
+
+    .footer-icon {
+        margin: 15px 5%;
+        color: white;
+        font-size: 16px;
+    }
+
+    .footer img {
+        margin: 0 3px;
+    }
+
+
+
 }
 
 @media (max-width: 767px) {
@@ -834,10 +849,9 @@ section {
     .navbar {
         padding: 10px 20px;
     }
-    #navbarCollapse>ul>li>a:hover {
-        color: black;
-        background-color: #f8f9fa;
-        transition: 0.4s;
+    .navbar-nav>.active>a {
+        background-color: white;
+        color: black !important;
     }
     .contact-section .col-md-12 {
         padding-bottom: 30px;
