@@ -9,7 +9,7 @@ body {
 }
 
 section {
-    scroll-margin-top: 56px;
+    scroll-margin-top: 60px;
 }
 
 
@@ -488,7 +488,7 @@ section {
 /* Client Section Start*/
 
 .client-section {
-    min-height: 600px;
+    min-height: 570px;
     height: 100%;
     width: 100%;
     background-color: #F5F5F5;
@@ -604,7 +604,7 @@ section {
     padding-right: 40px;
     padding-left: 40px;
     width: 100%;
-    min-height: 470px;
+    min-height: 480px;
     height: 100%;
     background-color: #20122C;
 }
@@ -708,9 +708,10 @@ section {
     min-height: 10px;
     padding: 7px 0;
 }
-.footer img{
-        margin:  : 1px 6px;
-    }
+
+.footer img {
+    margin: 1px 6px;
+}
 
 .footer p {
     font-size: 14px;
@@ -798,9 +799,6 @@ section {
     .nav-item>a {
         padding: 8px 12px;
     }
-
-
-
 }
 
 @media (min-width: 576px) and (max-width: 991px) {
@@ -837,8 +835,7 @@ section {
     .vertical {
         margin: 14px 0;
     }
-
-    .footer img{
+    .footer img {
         padding-top: 15px;
     }
 }
@@ -867,10 +864,10 @@ section {
     .nav-item>a {
         padding: 10px 12px;
     }
-    .nav-button:hover{
+    .nav-button:hover {
         border: 1px solid #9B69A8;
-        color : #9B69A8;
-        background-color: white; 
+        color: #9B69A8;
+        background-color: white;
     }
 }
 
@@ -896,6 +893,6 @@ section {
 
 @media (min-width: 1200px) {
     .client-section {
-        min-height: 610px;
+        min-height: 585px;
     }
 }
